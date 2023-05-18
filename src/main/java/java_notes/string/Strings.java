@@ -4,6 +4,11 @@ public class Strings {
 	
 	public static void main(String args[])
 	{
+		//Strings are immutable : we cannot modify strings
+		// once the strings are created in the memory we cannot mutate 
+		//whenever we try to add or delete from string the new string will generate in the heap memory 
+		//and which will result in consuming more time.
+		
 		//String declaration
 		String fullname = "surbhi";
 		
